@@ -1,0 +1,40 @@
+/* body{      ---->>> These are Internal CSS
+    background-color: rgb(205, 244, 146);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+ h1{
+    color: red;
+    font-style:normal;
+    font-size: 30px;
+ } 
+
+p{
+    color: blue;
+    border: 2px dotted red;
+    padding: 20px;
+    margin: 20px;
+} */
+.Hello{
+    color: blueviolet;
+    background-color: rgb(205, 244, 146);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.welcome{
+    color: rgb(237, 12, 12);
+    background-color: yellow;
+    color: blue;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+.great{
+    color: rgb(177, 0, 6);
+    background-color:lightblue;
+    color: blue;
+    border: 2px dotted rgb(34, 0, 255);
+    padding: 20px;
+    margin: 20px;
+}
+.note{
+    color: red;
+}
