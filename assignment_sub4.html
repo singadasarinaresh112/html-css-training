@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combine Vertical and Horizontal Zebra Stripes </title>
+</head>
+<style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+    }
+    
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {    
+      background-color: rgb(0, 255, 81);
+    }
+    tr:hover{background-color: yellow;}
+    
+    </style>
+<body>
+    <h2 style="background-color: rgb(24, 169, 24);">Zebra Striped Table</h2>
+<p style="color: rgb(15, 6, 6); background-color: burlywood">For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows and well as tr:hover to highlight color yellow </p>
+
+<table>
+  <tr>
+  <th>First Name</th>
+  <th>Last Name</th>
+  <th>Points</th>
+  </tr>
+  <tr>
+  <td>Sunny</td>
+  <td>Simbu</td>
+  <td>$1000</td>
+  </tr>
+  <tr>
+  <td>Lokesh</td>
+  <td>Bittu</td>
+  <td>$1500</td>
+  </tr>
+  <tr>
+  <td>Jevaan</td>
+  <td>Sammy</td>
+  <td>$300</td>
+  </tr>
+  <tr>
+  <td>Christiano</td>
+  <td>Range</td>
+  <td>$2500</td>
+  </tr>
+</table>
+    
+</body>
+</html>
+
+
+<!-- th:nth-child(even/odd),td:nth-child(even) {
+  background-color: blue
+>>>> 
+-->
