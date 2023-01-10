@@ -14,14 +14,15 @@ p{
     padding: 20px;
     margin: 20px;
 } */
-.Hello{
-    color: blueviolet;
+#Hello{
+    color: red;
     background-color: rgb(205, 244, 146);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid blueviolet;
 }
 .welcome{
     color: rgb(237, 12, 12);
-    background-color: yellow;
+    background-color: lightblue;
     color: blue;
     border: 2px solid red;
     padding: 20px;
@@ -29,7 +30,7 @@ p{
 }
 .great{
     color: rgb(177, 0, 6);
-    background-color:lightblue;
+    background-color:lightblue  ;
     color: blue;
     border: 2px dotted rgb(34, 0, 255);
     padding: 20px;
@@ -37,4 +38,16 @@ p{
 }
 .note{
     color: red;
+}
+#first{
+    color: green;
+    font-size: 20px;
+    background-color: gold;
+}
+.abc{
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-size: 35px;
+    background-color: yellow;
 }

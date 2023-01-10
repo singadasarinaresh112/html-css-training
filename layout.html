@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout form</title>
+<style>
+  .header{
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  body{
+    margin: 0;
+  }
+  .topnav{
+    overflow: hidden;
+    background-color:#333;
+  }
+  .topnav a{
+    float: left;
+    display:block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  }
+  .topnav a:hover{
+    background-color: rgba(212, 206, 206, 0.747);
+    columns: black;
+  }
+
+  /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: url();
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.footer{
+  color: #f2f2f2;
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+}
+#example{
+  background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+.image{
+  background-image: green;
+  width: 100%;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>My Home Infrastructure</h1>
+  </div>
+  <div class="topnav">
+    <a href="#Home">Home</a>
+    <a href="Features">Features</a>
+    <a href="Contact">Contact</a>
+    <a href="Customercare">CustomerCare</a>
+    <a href="Resources">Resources</a>
+  </div>
+  <div class="row">
+  <div class="column">
+     <h2>column1</h2>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, 
+      eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, 
+      purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.
+    </p>
+  </div>
+  <div class="column">
+    <h2>column2</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, 
+      eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, 
+      purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.
+    </p>
+  </div>
+  <div class="column">
+    <h2>column3</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, 
+      eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, 
+      purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.
+    </p>
+  </div>
+  <section>
+  <article>
+  <div class="card">
+    <p>Popular images</p>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+  </div>
+</article>
+</section>
+  <div id="example">
+    <p>Project Details</p>
+  </div>
+</div>
+<div class="footer">
+  <p>Terms and Conditions</p>
+</div>
+</body>
+
+
+</html>
