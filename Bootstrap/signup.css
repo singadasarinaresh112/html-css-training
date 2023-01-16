@@ -1,0 +1,15 @@
+.x{
+    font-size: 30px;
+    text-decoration: solid;
+    
+}
+
+.container1{
+    position: fixed;
+	padding: 10px 0;
+	text-align: center;
+	bottom: 0;
+	background-color: #101010;
+	color: #9d9d9d;
+	width: 100%;
+}
