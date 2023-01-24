@@ -1,0 +1,22 @@
+.container-fluid{
+    margin-top: 5px;
+    width: 200%;
+    height: 100%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height: 5%;
+ }
+ .navbar{
+    background: gray;
+    color: black;
+ }
+ .footer-heading-footer1{
+    color: black;
+ }
