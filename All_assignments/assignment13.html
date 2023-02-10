@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form>
+    <!-- <form>
         1st Number: <input type="text" id="firstNumber"> <br><br>
         2nd Number: <input type="text" id="secondNumber"> <br>
         <input type="button" onclick="multiplyBy()" value="Multiply" />
@@ -18,8 +18,29 @@
     </form>
     <p>The Result is: <br>
         <span id="result"></span>
-    </p>
-    <p id="demo"></p>
+    </p> -->
+
+
+<br>
+    <h1>Check if a string is a palindrome in Javascript</h1>
+    <h2>First exercice</h2>
+    <h5>The goal of this exercise is to create a function which can detect a palindrome. A palindrome is a word that can
+        be read in two directions without changing its significance. Example: “kayak” can be read in both sides.</h5>
+    <h6>Optional: create one input in the HTML to allow users to enter any kind of word and then print the result in the
+        DOM. Display an error if the content entered is not a string.</h6>
+    <ul>
+        <li>“kayak” = true</li>
+        <li>“radar” = true</li>
+        <li>“maman” = false</li>
+        <li>“Koalect” = false</li>
+        <li>“Bob” = true</li>
+    </ul>
+
+    <form class="palindrome__form">
+        <label for="word"> Word:<input type="text" name="word" id="word"> </label>
+        <button type="submit">submit</button>
+        <div id="return"></div>
+    </form>
 
 </body>
 
