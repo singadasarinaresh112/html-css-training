@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BasketBall Score Board</title>
+    <link rel="stylesheet" href="basketBallscore.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="home-title">HOME</h3>
+        <div class="home-score-background">
+            <h2 id="home-score">0</h2>
+        </div>
+        <div>
+            <div class="btn-container">
+                <button class="btn" id="freethrow-home-btn-el" onclick="freethrowHome()">+ 1</button>
+                <button class="btn" id="midrange-home-btn" onclick="midrangeHome()">+2</button>
+                <button class="btn" id="longthree-home-btn-el" onclick="longthreeHome()">+3</button>
+            </div>
+        </div>
+    </div>
+    <h3 class="guest-title">GUEST</h3>
+    <div class="guest-score-background">
+        <h2 id="guest-score">0</h2>
+    </div>
+    <div>
+        <button class="btn" id="freethrow-guest-btn-el" onclick="freethrowGuest()">+1</button>
+        <button class="btn" id="midrange-guest-btn-el" onclick="midrangeGuest()">+2</button>
+        <button class="btn" id="longthree-guest-btn-el" onclick="longthreeGuest()">+3</button>
+    </div>
+    </div>
+    </div>
+    <script src="basketballscore.js"></script>
+</body>
+
+</html>

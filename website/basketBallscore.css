@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    background: #1b244a;
+}
+
+@font-face {
+    font-family: cursed Timer ULiL;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Cursed Timer ULiL'), url('https://www.fontspace.com/cursed-timer-ulil-font-f29411#action=charmap&id=Aznm' format ('woff'));
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-title {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    margin: 0 auto;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.home-score-background {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+
+#home-score {
+    position: absolute;
+    left: 38px;
+    top: 1px;
+
+    margin: 0 auto;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+
+    color: #F94F6D;
+
+}
+
+#freethrow-home-btn-el {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#midrange-home-btn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#longthree-home-btn-el {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+ 
+
+/* guest score*/
+
+.guest-title {
+    position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 25px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+}
+
+.guest-score-background {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+
+#guest-score {
+    position: absolute;
+width: 117px;
+height: 120px;
+margin: 0 auto;
+left: 20px;
+top: 1px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+
+}
+
+
+#freethrow-guest-btn-el{
+    box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 337px;
+top: 271px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+
+#midrange-guest-btn-el{
+    box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 391px;
+top: 271px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+
+#longthree-guest-btn-el{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+}

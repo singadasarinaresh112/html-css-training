@@ -16,8 +16,7 @@ function divideBy(){
 //   function getWebsiteURL() {
 //     return window.location.href;
 //   }
-
-//   console.log(getWebsiteURL());
+// document.window.URL
 
 const input = 'kayak'
 const form = document.querySelector('.palindrome__form')
@@ -27,14 +26,15 @@ function palindromeToVerify(value) {
 }
 
 function reverseString(str) {
-    const stringToArray = str.split("")
-    const reverseArray = stringToArray.reverse()
+    const stringToArray = str.split("");
+    const reverseArray = stringToArray.reverse(); // TODO is find a alternative for reverse
+
     const joinArray = reverseArray.join("")
     return joinArray;
 }
 
 form.addEventListener('submit', e => {
-  e.preventDefault()
+  e.preventDefault();
   const value = form.querySelector('#word').value
   document.querySelector('#return').innerHTML = palindromeToVerify(value)
 })
