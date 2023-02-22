@@ -78,7 +78,7 @@ function merge_array (array1, array2){
     return result_array;
 }
 
-document.getElementById('demo').innerHTML = merge_array(array1,xarray2)*/
+document.getElementById('demo').innerHTML = merge_array(array1,array2)*/
 
 
 //4. Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property. 
@@ -89,14 +89,14 @@ document.getElementById('demo').innerHTML = merge_array(array1,xarray2)*/
 // rollno : 12 };
 
 
-/*var student = {
+const student = {
     name : 'David rayy',
     sclass : 'Vi',
     rollno : 12
 };
 document.getElementById('demo').innerHTML = student;
 delete student.rollno;
-document.getElementById('demo').innerHTML = student;*/
+document.getElementById('demo').innerHTML = student.name;
 
 
 //5. Write a JavaScript program to get the width and height of the window (any time the window is resized).
